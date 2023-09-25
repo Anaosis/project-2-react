@@ -9,9 +9,9 @@ import { ReactComponent as Heart } from '../../assets/icons/heart.svg';
 
 function Header(props) {
     return(
-        <header className="border-bottom mb-3">
+        <header className="border-bottom ">
             <div className="container-fluid container-min-max-width d-flex justify-content-between align-items-center">
-                <Link to="/" className="my-3">
+                <Link to="/">
                     <img src={Logo} alt="Sirluggia Shop" className="logo"/>
                 </Link>
                 <div>

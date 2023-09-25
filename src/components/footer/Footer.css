@@ -1,3 +1,8 @@
+
+footer {
+    background-color: #adc178;
+}
+
 footer svg {
     width: 24px;
     height: 24px;
@@ -8,3 +13,4 @@ footer svg {
         flex-direction: column;
     }
 }
+
