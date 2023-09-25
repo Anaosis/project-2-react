@@ -1,0 +1,236 @@
+{
+    "shoes": {
+        "items": [
+            {
+                "id": 1,
+                "name": "Încălțăminte cu steluțe",
+                "price": 120,
+                "currency": "LEI",
+                "image": "https://i.imgur.com/RsZLNFC_d.jpg?maxwidth=520&shape=thumb&fidelity=high",
+                "size": 38,
+                "colour": "Albastru",
+                "material": "Pânză",
+                "brand": "Stars",
+                "description": "Încălțăminte din pânză cu steluțe cusute.. Donec porttitor, odio a mattis aliquam, eros turpis sodales dolor, id sodales ante eros a tortor. Maecenas vel risus tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+            },
+            {
+                "id": 2,
+                "name": "Încălțăminte bla bla",
+                "price": 100,
+                "currency": "LEI",
+                "image": "https://i.imgur.com/u4B47K6_d.jpg?maxwidth=520&shape=thumb&fidelity=high",
+                "size": 36,
+                "colour": "Galben",
+                "material": "Pânză",
+                "brand": "Mush",
+                "description": "Integer ac elit a turpis lacinia rhoncus. Morbi tempor pretium fermentum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque pulvinar est fermentum augue volutpat imperdiet. Duis accumsan tempor ligula sit amet posuere."
+            },
+            {
+                "id": 3,
+                "name": "Încălțăminte Traveler",
+                "price": 155,
+                "currency": "LEI",
+                "image": "https://i.imgur.com/GhMlFRs_d.jpg?maxwidth=520&shape=thumb&fidelity=high",
+                "size": 40,
+                "colour": "Maro",
+                "material": "Pânză",
+                "brand": "Stars",
+                "description": "Nullam imperdiet, ante sit amet sollicitudin accumsan, leo dolor facilisis nulla, ut posuere nibh metus et orci. Etiam tempus eros quis mollis elementum. Aenean sed luctus lorem, ut congue lorem. Aliquam non nisl non tortor cursus tempor nec sit amet arcu."
+            }
+        ],
+        "image": "https://i.imgur.com/3WHXLXp_d.jpg?maxwidth=520&shape=thumb&fidelity=high",
+        "name": "Încălțăminte",
+        "description": "Nulla hendrerit dui ac sodales vehicula. Nulla facilisi."
+    },
+    "sweaters": {
+        "items": [
+            {
+                "id": 4,
+                "name": "Pulovăr multicolor vintage",
+                "price": 95,
+                "currency": "LEI",
+                "image": "https://i.imgur.com/3OhurU7_d.jpg?maxwidth=520&shape=thumb&fidelity=high",
+                "size": "L",
+                "colour": "Multicolor",
+                "material": "Cașmir",
+                "brand": "FallFeel",
+                "description": "Vivamus ultrices lobortis fermentum. Morbi vehicula, nunc condimentum rutrum egestas, libero nisl hendrerit mauris, sed pretium risus sapien ut ligula. Mauris pulvinar vehicula erat et tempus. Nunc eu commodo metus."
+            },
+            {
+                "id": 5,
+                "name": "Pulovăr gri comfy",
+                "price": 105,
+                "currency": "LEI",
+                "image": "https://i.imgur.com/SeVGnzx_d.jpg?maxwidth=520&shape=thumb&fidelity=high",
+                "size": "2XL",
+                "colour": "Gri",
+                "material": "Bumbac",
+                "brand": "McMe",
+                "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis magna tortor, congue quis mi in, posuere porttitor lectus. Cras bibendum nunc consectetur, ultricies ipsum eget, vestibulum elit. Fusce quis vestibulum tortor, vel egestas augue."
+            },
+            {
+                "id": 6,
+                "name": "Pulovăr călduros și frumos",
+                "price": 65,
+                "currency": "LEI",
+                "image": "https://i.imgur.com/10HeViX_d.jpg?maxwidth=520&shape=thumb&fidelity=high",
+                "size": "XL",
+                "colour": "Multicolor",
+                "material": "Lână",
+                "brand": "FallFeel",
+                "description": "Curabitur ullamcorper malesuada arcu et accumsan. In egestas sapien ac nisl suscipit bibendum. Aenean eget ultricies odio. Nunc ultricies aliquet justo sed congue."
+            }
+        ],
+        "image": "https://i.imgur.com/FTtUon6_d.jpg?maxwidth=520&shape=thumb&fidelity=high",
+        "name": "Pulovere",
+        "description": "Pulovărașe drăguțeee.. Praesent aliquam, lobortis lectus, ut blandit magna nibh."
+    },
+    "pants": {
+        "items": [
+            {
+                "id": 7,
+                "name": "Pulovăr din lână",
+                "price": 160,
+                "currency": "LEI",
+                "image": "https://i.imgur.com/dTcMbHT.jpg",
+                "size": "L",
+                "colour": "Crem",
+                "material": "Lână",
+                "brand": "Massimo Dutti",
+                "description": "Pulovăr din lână cu model, colecția toamnă-iarnă 2019, Massimo Dutti."
+            },
+            {
+                "id": 8,
+                "name": "Blugi bleumarin slim fit",
+                "price": 35,
+                "currency": "LEI",
+                "image": "https://i.imgur.com/VhpATO8.jpg",
+                "size": "34",
+                "colour": "Bleumarin închis",
+                "material": "Blug",
+                "brand": "DS Damat",
+                "description": "Blugi bleumarin, slim fit, colecția primăvară-vară 2019, DS Damat."
+            },
+            {
+                "id": 9,
+                "name": "Blugi negri slim fit",
+                "price": 40,
+                "currency": "LEI",
+                "image": "https://i.imgur.com/weiI07t.jpg",
+                "size": "34",
+                "colour": "Negru-gri",
+                "material": "Blug",
+                "brand": "DS Damat",
+                "description": "Blugi negri, slim fit, colecția toamnă-iarnă 2019, DS Damat."
+            }
+        ],
+        "image": "https://i.imgur.com/srQCDRN.jpg",
+        "name": "Pantaloni/blugi",
+        "description": "Jeanși și pantaloni pentru baieții care și-o ard patroni!"
+    },
+    "jackets": {
+        "items": [
+            {
+                "id": 10,
+                "name": "Haină lungă din lână virgină",
+                "price": 210,
+                "currency": "LEI",
+                "image": "https://i.imgur.com/IXrZitQ.jpg",
+                "size": "L",
+                "colour": "Gri închis",
+                "material": "Lână virgină",
+                "brand": "Peek and Cloppenburg",
+                "description": "Haină lungă din lână virgină, colecția toamnă-iarnă 2018, Peek and Cloppenburg."
+            },
+            {
+                "id": 11,
+                "name": "Geacă bleumarin cu glugă detașabilă",
+                "price": 250,
+                "currency": "LEI",
+                "image": "https://i.imgur.com/eCZd7PU.jpg",
+                "size": "L",
+                "colour": "Bleumarin",
+                "material": "Poliester",
+                "brand": "DS Damat",
+                "description": "Geacă bleumarin cu glugă detașabilă, colecția toamnă-iarnă 2019, DS Damat."
+            }
+        ],
+        "image": "https://i.imgur.com/81I6Oab.jpg",
+        "name": "Geci/Haine",
+        "description": "Confortabile, călduroase și nu arăți ca un cartof!"
+    },
+    "tshirts": {
+        "items": [
+            {
+                "id": 12,
+                "name": "Tricou în dungi",
+                "price": 90,
+                "currency": "LEI",
+                "image": "https://i.imgur.com/BWvzCwB.jpg",
+                "size": "L",
+                "colour": "Multicolor",
+                "material": "Bumbac",
+                "brand": "Lacoste",
+                "description": "Tricou în dungi, colecția primăvară-vară 2019, Lacoste."
+            },
+            {
+                "id": 13,
+                "name": "Tricou de ping pong",
+                "price": 110,
+                "currency": "LEI",
+                "image": "https://i.imgur.com/4BbF4TO.jpg",
+                "size": "L",
+                "colour": "Roșu",
+                "material": "Poliester",
+                "brand": "Li Ning",
+                "description": "Tricou de ping pong cu imprimeu cu dragon, purtat de jucatorii naționalei chinei în 2013."
+            },
+            {
+                "id": 14,
+                "name": "Tricou original BVB cu autograf",
+                "price": 1909,
+                "currency": "LEI",
+                "image": "https://i.imgur.com/etIsbHV.jpg",
+                "size": "L",
+                "colour": "Galben-Negru",
+                "material": "Poliester",
+                "brand": "Puma",
+                "description": "Tricoul purtat de Borussia Dortmund în sezonul competițional 2018-2019, cu numarul 7 și numele 'SANCHO'. Tricoul este semnat de portarul Borussiei, Roman Burki."
+            }
+        ],
+        "image": "https://i.imgur.com/l27WtFL.jpg",
+        "name": "Tricouri",
+        "description": "Și de băiețeală și de sport."
+    },
+    "accesories": {
+        "items": [
+            {
+                "id": 15,
+                "name": "Fular TJ cu două fețe",
+                "price": 85,
+                "currency": "LEI",
+                "image": "https://i.imgur.com/rSVUiLO.jpg",
+                "size": "Universal",
+                "colour": "Gri-Bleumarin",
+                "material": "Cașmir",
+                "brand": "Trussardi Jeans",
+                "description": "Fular cu imprimeu, din colecția toamnă-iarnă 2018, Trussardi Jeans."
+            },
+            {
+                "id": 16,
+                "name": "Mănuși din piele",
+                "price": 60,
+                "currency": "LEI",
+                "image": "https://i.imgur.com/LbjGaZ1.jpg",
+                "size": "L",
+                "colour": "Negru",
+                "material": "Piele",
+                "brand": "DS Damat",
+                "description": "Mănuși din piele, cu model, din colecția toamnă-iarnă 2018, DS Damat."
+            }
+        ],
+        "image": "https://i.imgur.com/qw3wDj8.jpg",
+        "name": "Accesorii",
+        "description": "Fulare, căciuli, mănuși: nu mai sta pe gânduri, cumpără-le acuși!"
+    }
+}
