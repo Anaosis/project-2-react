@@ -7,7 +7,6 @@ import './Cart.css';
 import { ReactComponent as Close } from '../../assets/icons/close.svg';
 
 function Cart(props) {
-    // Am adaugat o functie care calculeaza cu reduce suma totala a produselor.
     const totalSum = (products) => {
         return products.reduce((acc, product) => {
             return acc + product.quantity * product.price;
@@ -45,7 +44,6 @@ function Cart(props) {
                                 </div>
                             })
                         }
-                        {/* Am adaugat o sectiune care afiseaza totalul comenzii. */}
                         <div className="d-flex justify-content-end border-top">
                             <div className="w-25 d-flex align-items-center justify-content-center">
                                 <p className="my-4 text-center font-weight-bold">Total de plată: </p>
