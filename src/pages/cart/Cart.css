@@ -6,3 +6,8 @@
 .cart-page svg {
     cursor: pointer;
 }
+
+.bro {
+    background-color: rgba(221, 161, 94, 0.5) !important;
+    border-radius: 8px;
+}

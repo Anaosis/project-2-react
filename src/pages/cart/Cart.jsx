@@ -28,7 +28,7 @@ function Cart(props) {
                         </div>
                         {
                             props.products.map(product => {
-                                return <div className="d-flex justify-content-between align-items-center text-center" key={product.id}>
+                                return <div className="m-3 p-2 bro d-flex justify-content-between align-items-center text-center" key={product.id}>
                                     <div className="w-25 d-flex flex-column justify-content-center align-items-center">
                                         <img src={product.image} alt="Produs"/>
                                         <p>{ product.name }</p>
@@ -44,14 +44,14 @@ function Cart(props) {
                                 </div>
                             })
                         }
-                        <div className="d-flex justify-content-end border-top">
+                        <div className="d-flex justify-content-end border-top my-2">
                             <div className="w-25 d-flex align-items-center justify-content-center">
-                                <p className="my-4 text-center font-weight-bold">Total de plată: </p>
+                                <h5 className="my-4 text-center font-weight-bold">Total de plată: </h5>
                             </div>
                             <div className="w-25">
-                                <p className="my-4 text-center">
+                                <h4 className="my-4 text-center">
                                     { totalSum(props.products) } { props.products[0].currency }
-                                </p>
+                                </h4>
                             </div>
                         </div>
                     </div>
