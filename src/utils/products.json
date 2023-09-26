@@ -6,7 +6,7 @@
                 "name": "Încălțăminte cu steluțe",
                 "price": 120,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/RsZLNFC_d.jpg?maxwidth=520&shape=thumb&fidelity=high",
+                "image": "https://i.imgur.com/QPVPaGz_d.jpg?maxwidth=520&shape=thumb&fidelity=high",
                 "size": 38,
                 "colour": "Albastru",
                 "material": "Pânză",
@@ -40,16 +40,16 @@
         ],
         "image": "https://i.imgur.com/3WHXLXp_d.jpg?maxwidth=520&shape=thumb&fidelity=high",
         "name": "Încălțăminte",
-        "description": "Nulla hendrerit dui ac sodales vehicula. Nulla facilisi."
+        "description": "Nulla hendrerit dui ac sodales vehicula. Nulla facilisi. Proin et eleifend nunc, nec dictum nisi, vehicula sed justo."
     },
     "sweaters": {
         "items": [
             {
                 "id": 4,
-                "name": "Pulovăr multicolor vintage",
+                "name": "Pulovăr vintage",
                 "price": 95,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/3OhurU7_d.jpg?maxwidth=520&shape=thumb&fidelity=high",
+                "image": "https://i.imgur.com/NijgYg5_d.jpg?maxwidth=520&shape=thumb&fidelity=high",
                 "size": "L",
                 "colour": "Multicolor",
                 "material": "Cașmir",
@@ -70,7 +70,7 @@
             },
             {
                 "id": 6,
-                "name": "Pulovăr călduros și frumos",
+                "name": "Pulovăr călduros",
                 "price": 65,
                 "currency": "LEI",
                 "image": "https://i.imgur.com/10HeViX_d.jpg?maxwidth=520&shape=thumb&fidelity=high",
@@ -113,7 +113,7 @@
             },
             {
                 "id": 9,
-                "name": "Blugi negri cusatura alba",
+                "name": "Blugi negri",
                 "price": 240,
                 "currency": "LEI",
                 "image": "https://i.imgur.com/zyCWvr2_d.jpg?maxwidth=520&shape=thumb&fidelity=high",

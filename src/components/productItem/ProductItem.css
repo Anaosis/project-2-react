@@ -3,12 +3,26 @@
     max-height: 250px;
 }
 
+.prod {
+    background-color: #dda15e !important;
+}
+
 .mic {
     max-height: 20px;
     max-width: 20px;
-    margin: 0 10px;
 } 
-.mic2 {
-    max-height: 40px;
-    max-width: 40px;
-} 
+
+.haha {
+    max-width: 3rem;
+}
+
+.cont-add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.add {
+    max-width: 8rem;
+}

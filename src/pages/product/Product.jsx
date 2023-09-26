@@ -32,26 +32,52 @@ function Product(props) {
 
     return (
       <Layout>
-        <div className="tot">
-          <img src={image} alt="Poza cu ce-o fi asta" />
-          <h2>{name}</h2>
-          <p>Price: {price} {currency}</p>
-          <p>Size: {size} Color: {colour}</p>
-          <p>Material: {material}</p>
-          <p>Brand: {brand}</p>
-          <p>Description: {description}</p>
-          {isFavorited ? (
+        <div className="d-flex flex-column flex-lg-row align-items-center justify-content-center">
+          <div className="brown">
+            <img src={image} alt="Poza cu ce-o fi asta" className="m-3 bb"/>
+          </div>
+          <div className="p-5">
+            <div className="d-inline-flex">
+              <h2>{name}</h2>
+              {isFavorited ? (
+                <button
+                  className="mic2 btn bg-transparent btn-outline-none"
+                  onClick={() => props.removeFromFav({ id: newId })}
+                >
+                  <HeartOn className="mic3"/>
+                </button>
+              ) : (
+                <button
+                  className="mic2 btn bg-transparent btn-outline-none"
+                  onClick={() =>
+                    props.addToFav(
+                      {
+                        product: {
+                          id: newId,
+                          name,
+                          price,
+                          currency,
+                          image,
+                        }
+                      }
+                    )
+                  }
+                >
+                  <Heart className="mic3"/>
+                </button>
+              )}
+            </div>
+            <p>Price: {price} {currency}</p>
+            <p>Size: {size}</p>
+            <p>Color: {colour}</p>
+            <p>Material: {material}</p>
+            <p>Brand: {brand}</p>
+            <p>Description:</p>
+            <p> {description}</p>
             <button
-              className="mic2 btn bg-transparent btn-outline-none"
-              onClick={() => props.removeFromFav({ id: newId })}
-            >
-              <HeartOn className="mic" />
-            </button>
-          ) : (
-            <button
-              className="mic2 btn bg-transparent btn-outline-none"
+              className="btn btn-outline-dark"
               onClick={() =>
-                props.addToFav(
+                props.addToCart(
                   {
                     product: {
                       id: newId,
@@ -61,31 +87,12 @@ function Product(props) {
                       image,
                     }
                   }
-                )
+                  )
               }
-            >
-              <Heart className="mic" />
+              >
+              Adaugă în coș
             </button>
-          )}
-          <br />
-          <button
-            className="btn btn-outline-dark"
-            onClick={() =>
-              props.addToCart(
-                {
-                  product: {
-                    id: newId,
-                    name,
-                    price,
-                    currency,
-                    image,
-                  }
-                }
-              )
-            }
-          >
-            Adaugă în coș
-          </button>
+          </div>
         </div>
       </Layout>
     );

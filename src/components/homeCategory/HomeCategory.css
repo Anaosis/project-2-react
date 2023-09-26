@@ -1,0 +1,17 @@
+.card-body {
+    background-color: #dda15e;
+}
+
+.card {
+    border-radius: 6px !important;
+    color:#132a13 !important;
+}
+
+.card-body {
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.h4:hover {
+    text-decoration: underline;
+}
